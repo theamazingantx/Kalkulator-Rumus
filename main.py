@@ -92,5 +92,25 @@ elif menu == 6:
 
     else: print("Liat atas, kira kira ada gak menu", subMenu, "Diatas??")
 
+# Jika yg diketik 7, maka akan menjalankan program dibawah ini
+elif menu == 7:
+    print("Anda memilih rumus keliling persegi panjang")
+    a = int(input("Masukan panjang: "))
+    b = int(input("Masukan lebar: "))
+
+    c = 2 * ( a + b )
+
+    print("Hasil: ", c)
+
+# Jika yg diketik 8, maka akan menjalankan program dibawah ini
+elif menu == 8:
+    print("Anda memilih rumus luas persegi panjang")
+    a = int(input("Masukan panjang: "))
+    b = int(input("Masukan lebar: "))
+
+    c = a * b
+
+    print("Hasil: ", c)
+
 # Selain angka yang ditentukan, maka akan menjalankan program dibawah ini
 else: print("Menu tidak tersedia")
